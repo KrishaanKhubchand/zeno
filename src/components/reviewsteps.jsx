@@ -60,7 +60,9 @@ const Steps = props => {
           <h3 className="pitch-body">Bring closure to the year now.</h3>
         </div>
         <div className="row sign-up-box-container">
-          <button className="sign-up-cta">review your year</button>
+          <form action={props.CTALink}>
+            <button className="sign-up-cta">{props.buttonCTA}</button>
+          </form>
         </div>
       </React.Fragment>
     </div>

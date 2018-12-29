@@ -6,19 +6,33 @@ const Header = props => {
     <React.Fragment>
       <div className="row header-row">
         <div className="col logoTextArea">
-          <h2 className="logo-text"> Zeno </h2>
+          <h2 className="logo-text">
+            {" "}
+            <Link to="/" className="logo-text">
+              Zeno
+            </Link>{" "}
+          </h2>
         </div>
 
         <div className="col menuText">
           <ul className="justify-content-end nav">
             <li className="nav-item nav-link nav-item-access">
-              <Link to="/" className = "link-item">iOS App</Link>
+              <Link to="/review2018" className="link-item">
+                2018 Review
+              </Link>
             </li>
-            <li className="nav-item nav-link nav-item-access">
-              <Link to="/review2018" className = "link-item">2018 Review</Link>
+            <li
+              className="nav-item nav-link nav-item-access"
+              id="plan-nav-link"
+            >
+              <Link to="/gameplan2019" className="link-item">
+                2019 Gameplan
+              </Link>
             </li>
-            <li className="nav-item nav-link nav-item-access">
-              <Link to="/gameplan2019" className = "link-item">2019 Gameplan</Link>
+            <li className="nav-item nav-link nav-item-access" id="app-nav-link">
+              <Link to="/" className="link-item">
+                iOS App
+              </Link>
             </li>
           </ul>
         </div>

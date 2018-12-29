@@ -5,7 +5,7 @@ import AppShot2 from "./assets/app1.svg";
 const AppImage = props => {
   return (
     <React.Fragment>
-      <div className="row">
+      <div className="row image-row">
         <img className="mockup" src={AppShot1} alt="" />
       </div>
     </React.Fragment>

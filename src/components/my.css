@@ -94,8 +94,32 @@ body {
 
 .mockup {
   margin-top: -40px;
+  height: 700px;
 }
 
 .link-item {
   color: #8f8f8f;
+}
+
+.image-row {
+  justify-content: center;
+}
+
+@media only screen and (max-width: 570px) {
+  .whole-container {
+    margin: auto;
+    width: 90%;
+  }
+
+  .steps-head {
+    display: none;
+  }
+
+  .steps-n-shit {
+    display: none;
+  }
+
+  #app-nav-link {
+    display: none;
+  }
 }

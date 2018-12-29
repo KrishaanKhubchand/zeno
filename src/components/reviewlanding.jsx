@@ -17,7 +17,10 @@ const ReviewLanding = props => {
         CTALink="https://projectzeno.typeform.com/to/DS4yVy"
         FAQ="How It Works:"
       />
-      <Steps />
+      <Steps
+        buttonCTA="review your year"
+        CTALink="https://projectzeno.typeform.com/to/DS4yVy"
+      />
     </div>
   );
 };

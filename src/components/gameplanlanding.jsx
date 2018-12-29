@@ -19,7 +19,8 @@ const GameplanLanding = props => {
       />
       <Steps
         pitchC="Make 2019 your best year ever."
-        secondButtonCTA="set goals for 2019"
+        buttonCTA="set goals for 2019"
+        CTALink="https://projectzeno.typeform.com/to/Eh0eto"
       />
     </div>
   );
